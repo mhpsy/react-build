@@ -8,12 +8,17 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "prepare": "scripts/init.sh",
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.12.0",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "commitlint": "^19.6.1",
     "eslint": "^9.17.0",
     "eslint-plugin-format": "^0.1.3",
+    "husky": "^9.1.7",
     "typescript": "^5.7.2"
   }
 }

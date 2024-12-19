@@ -8,4 +8,8 @@ export default antfu({
 
     jsonc: false,
     yaml: false,
+
+    rules: {
+        'no-unused-vars': 'warn',
+    },
 })

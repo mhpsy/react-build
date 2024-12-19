@@ -18,10 +18,13 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
+.husky
+
 # Editor directories and files
 .vscode/*
 .history
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 *.suo
 *.ntvs*
